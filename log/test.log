@@ -18,3 +18,28 @@ Started GET "/restaurants" for 127.0.0.1 at 2017-02-20 16:30:57 +0000
   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
 Started GET "/restaurants" for 127.0.0.1 at 2017-02-20 16:34:20 +0000
   [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (171.8ms)[0m  [1m[35mDROP DATABASE IF EXISTS "yelp_clone_test"[0m
+  [1m[35m (432.7ms)[0m  [1m[35mCREATE DATABASE "yelp_clone_test" ENCODING = 'unicode'[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/restaurants" for 127.0.0.1 at 2017-02-20 16:47:36 +0000
+Processing by RestaurantsController#index as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (194.1ms)[0m  [1m[35mDROP DATABASE IF EXISTS "yelp_clone_test"[0m
+  [1m[35m (314.3ms)[0m  [1m[35mCREATE DATABASE "yelp_clone_test" ENCODING = 'unicode'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/restaurants" for 127.0.0.1 at 2017-02-20 16:48:13 +0000
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  Rendered restaurants/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 647ms (Views: 629.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (185.0ms)[0m  [1m[35mDROP DATABASE IF EXISTS "yelp_clone_test"[0m
+  [1m[35m (375.0ms)[0m  [1m[35mCREATE DATABASE "yelp_clone_test" ENCODING = 'unicode'[0m
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+Started GET "/restaurants" for 127.0.0.1 at 2017-02-20 16:48:54 +0000
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  Rendered restaurants/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 173ms (Views: 164.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
